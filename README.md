@@ -1,17 +1,20 @@
-<<<<<<< HEAD
 # TiffinTracker
 React app to track tiffin and monthly charges
-=======
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Tech Stack
+This project uses **React + Vite** for fast development and performance.
 
-Currently, two official plugins are available:
+Vite provides:
+- Hot Module Replacement (HMR) for a smooth development experience.
+- Built-in support for modern JavaScript features.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ESLint & Plugins
+Currently, two official plugins are available for React development with Vite:
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh.
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> f93a937 (Initialized React app)
+## Expanding the ESLint Configuration
+If you are developing a production application, consider:
+- Using **TypeScript** for better type safety.
+- Enabling **type-aware lint rules** with [`typescript-eslint`](https://typescript-eslint.io).
+- Checking out the [TypeScript template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for Vite.
